@@ -1,0 +1,139 @@
+
+nav{
+    display=flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-links{
+    
+    flex: 1;
+    text-align: center;
+    
+   
+    
+}
+.nav-links ol li{
+   
+    
+    list-style: none;
+    display: inline-block;
+    
+    
+    
+}
+.nav-links ol li a{
+    text-decoration: none;
+    text-decoration-style: dotted;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    
+    
+}
+.nav-links ol li a button{
+    color: white;
+    background-color: transparent;
+    font-size: 15px;
+    font-style: italic;
+    font-display: block;
+    
+    
+    
+    
+
+    border-radius: 0px;
+    border: 4px bold white;
+    background-blend-mode: lighten;
+}
+.nav-links ol li a button:hover{
+    transition:5s;
+    background-color: red;
+}
+
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+    
+    background-image: linear-gradient(to bottom,rgba(4,30,30,0.7),rgba(4,30,30,0.7)),url(images/1.jfif);
+    
+    
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    position: relative;
+}
+.login{
+    width: 400px;
+    height: 500px;
+    color: white;
+    background-image:linear-gradient(to bottom,rgba(4,15,15,0.7),rgba(4,15,15,0.7));
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,-45%);
+    box-sizing: border-box;
+    padding: 60px,30px;
+    
+        
+}
+h1{
+    text-align: center;
+    padding-top: 20%
+    
+    
+}
+
+.in{
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+    position: absolute;
+    top: -40px;
+    left: calc(50% - 40px);
+    
+    
+    
+   
+}
+
+.login input{
+    text-emphasis-color: white;
+    width: 100%;
+    margin-bottom: 20px;
+    
+    
+}
+.login input[type="text"],input[type="password"]{
+    color: white;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    
+}
+a:hover{
+    text-decoration: underline;
+    color: aqua;
+    transition: 2s;
+}
+.login input[type="submit"]{
+    border-radius: 10%;
+    font-size: 20px;
+    padding-left: 2px;
+    
+}
+.login input[type="submit"]:hover{
+    background-color: aliceblue;
+    color: red;
+    transition: s;
+}

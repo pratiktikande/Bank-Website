@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.hun{
+    background-color: aliceblue;
+    overflow-x: hidden;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    
+    background-image: linear-gradient(to bottom,rgba(4,30,30,0.7),rgba(4,30,30,0.7)),url(images/1.jfif);
+    
+    
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    position: relative;
+    
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-links{
+    
+    flex: 1;
+    text-align: right;
+    
+   
+    
+}
+.nav-links ol li{
+   
+    
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 8px 10px;
+    
+}
+.nav-links ol li a{
+    text-decoration: none;
+    text-decoration-style: dotted;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    
+    
+}
+.nav-links ol li a button{
+    color: white;
+    background-color: transparent;
+    font-size: 15px;
+    font-style: italic;
+    font-display: block;
+    
+    
+    
+    
+
+    border-radius: 0px;
+    border: 4px bold white;
+    background-blend-mode: lighten;
+}
+.nav-links ol li a button:hover{
+    transition:5s;
+    background-color: red;
+}
+
+
+.header h1{
+    text-align: center;
+    text-emphasis-position: below;
+    text-decoration-style: solid;
+    padding-top: 120px;
+    font-size: 150px;
+    color: transparent;
+    
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    background-image: url(images/back.png);
+    -webkit-background-clip:text;
+    background-position: 0 0;
+    animation: back 25s linear infinite;
+    
+    
+    
+    
+} 
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+    
+
+.header p{
+    text-align: center;
+    color: white;
+    align-items: center;
+    font-size: 30px;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+.header p button{
+    padding: 10px 40px;
+    position: absolute;
+    top: 65%;
+    left: 42%;
+    
+    
+    border: 4px bold white;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    
+}
+p button:hover{
+    transition: 5s;
+    font-variant-position: super;
+    background-color: red;
+}
+.texxt{
+    
+
+   
+    
+    border: 3px solid white;
+    margin: 1%;
+}
+.details{
+    
+    
+    
+    color: white;
+    background-blend-mode: darken;
+    
+
+    
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.mainbody{
+    background-image:linear-gradient(to bottom,rgba(4,30,30,0.7),rgba(4,30,30,0.7)),url(images/2311974.webp);
+	width=100%;
+	min-height=100%;
+     
+}
+.details h1{
+    padding-top: 3%;
+    text-align:center;
+    font-size: 30px;
+    font-style: italic;
+    
+   
+    word-spacing: inherit;
+}
+.h{
+    border: 3px double  white;
+    padding: 5px 5px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.details h2{
+    padding-top: 3%;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    
+    
+    word-spacing: inherit;
+}
+.po{
+    border: 3px double  white;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 28px;
+}
+.details h3{
+    padding-top: 3%;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+  
+    
+   
+    word-spacing: inherit;
+}
+.se{
+    border: 3px double  white;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 25px;
+   
+  
+        
+}
+.typess{
+    
+
+    
+    border: 3px solid white;
+    margin: 2%;
+    
+   
+}
+.typess h1{
+    
+    padding-top: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-style: oblique;
+}
+.typess h2{
+    text-align: center;
+    color: white;
+    font-style: oblique;
+}
+
+.account{
+    padding: 10% 2%;
+    color: white;
+    
+  
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.account  a {
+    overflow: hidden;
+    font-size: 50px;
+    text-decoration: none;
+    border: 3px double white;
+    color: white;
+    
+}
+.bank{
+    
+    height: 200px;
+    width: 250;
+}
+.account  a:hover{
+    background-color: #FF0000;
+    color: white;
+    transition: 3s;
+}
+
+    
+.loan{
+    
+    
+    border: 3px solid white;
+    margin: 2%;
+    padding-top: 3%;
+    justify-content: space-between;
+
+}
+.loan nav{
+   padding: 10px;
+}
+.loan h1{
+    text-align: center;
+    color: white;
+}
+.loan-links{
+    position: relative;
+    
+    left: 50%;
+    transform: translate(-50%, 0);
+    align-content: center;
+    margin: 2%;
+    display: inline-flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.loan-links ol{
+    
+
+}
+.loan-links ol li{
+    
+    list-style: none;
+}
+.loan-link1 button{
+    font-size: 30px;
+    color: white;
+    
+   
+    
+    background-color: transparent;
+
+}
+.image_owner{
+    margin: 3px;
+    position: relative;
+    border-radius: 50%;
+    
+    left: 40%;
+    border: 5px double white;
+    width: 200px;
+    height: 300px;
+}
+.texxt h5{
+    color: white;
+    font-family: "Brush Script MT",cursive;
+    margin-top: 1%;
+    position: relative;
+    left: 40%;
+    font-size: 30px;
+}
+.texxt h4{
+    color: white;
+    margin-bottom: 3%;
+    position: relative;
+    left: 45%;
+    font-size: 15px;
+}
+.loan-link2 a button {
+    
+    font-size: 30px;
+    color: white;
+   
+    
+    background-color: transparent;
+    
+
+}
+.loan-links  button:hover{
+    background-color: #FF0000;
+    color: white;
+    transition: 3s;
+}
+.homee{
+    height: 200px;
+    width: 250;
+    
+}
+.family{
+    height: 200px;
+    width: 250;
+}
+.mobile{
+    height: 200px;
+    width: 250;
+}
+.share{
+    
+    
+    border: 3px solid white;
+    margin: 2%;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    
+    
+}
+.share ol{
+    margin: 2%;
+}
+.share ol li{
+    margin-top: 3%;
+    margin-bottom: 1%;
+    list-style: none;
+    font-size: 15px;
+}
+
+
+.contact {
+    
+    border: 3px solid white;
+    margin: 2%;
+    color: white;
+    padding: 10% 2%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+    padding-top: 10%;
+    text-align: left;
+   
+    
+}
+.contact h3{
+    text-align: left;
+    
+    font-size: 30px;
+}
+.contact i{
+   
+    
+    position: relative;
+    top: 80%;
+    font-size: 30px;
+}
+.contact h6{
+   
+    
+    position: relative;
+    top: 80%;
+    font-size: 15px;
+}
+
+

@@ -1,0 +1,123 @@
+nav{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+*{
+    
+    
+    
+}
+.nav-links{
+    
+    flex: 1;
+    text-align: center;
+    
+   
+    
+}
+.nav-links ol li{
+   
+    
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding-right: 10px;
+  
+    
+}
+.nav-links ol li a{
+    text-decoration: none;
+    text-decoration-style: dotted;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    
+    
+}
+.nav-links ol li a button{
+    color: white;
+    background-color: transparent;
+    font-size: 15px;
+    font-style: italic;
+    font-display: block;
+    
+    
+    
+    
+
+    border-radius: 0px;
+    border: 4px bold white;
+    background-blend-mode: lighten;
+}
+.nav-links ol li a button:hover{
+    transition:5s;
+    background-color: red;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+    
+    background-image: linear-gradient(to bottom,rgba(4,30,30,0.7),rgba(4,30,30,0.7)),url(images/1.jfif);
+    
+    
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    position: justify-content;
+}
+.account{
+    width: 900px;
+    height: 900px;
+    color: white;
+    background-image:linear-gradient(to bottom,rgba(4,15,15,0.7),rgba(4,15,15,0.7));
+    position: relative;
+    top: 0%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,-10px);
+    box-sizing: border-box;
+    padding: 60px,30px;
+}
+
+h1{
+    padding-top: 30px;
+    text-align: center;
+}
+.header{
+    padding: 10%,20%;
+    border: 5px double white;
+}
+.header input[type="text"]{
+    width: 99%;
+    background-color: transparent;
+    color: white;
+    
+    
+}
+.header label{
+    padding-left: 30%;
+    display: table;
+}
+.header input[type="file"]{
+    padding-left: 30%;
+    display: table;
+}
+.header input[type="submit"]{
+    
+    width: 100%;
+    background-color: transparent;
+    color: red;
+    
+    
+}
+.header input[type="submit"]:hover{
+    background-color: antiquewhite;
+    transition: 3s;
+    transform-origin: left;
+}
+        
